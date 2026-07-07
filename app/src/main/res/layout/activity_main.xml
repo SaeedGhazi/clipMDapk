@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تنظیم دسته‌بندی پیش‌فرض:"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/categoryInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="مثلاً: General یا AI_Learning"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ذخیره تنظیمات"/>
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="یادداشت‌های شما در پوشه Android/data/com.myname.clipmd/files گوشی ذخیره می‌شوند."
+        android:textSize="14sp"/>
+</LinearLayout>
